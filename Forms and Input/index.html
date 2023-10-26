@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <h1>Form to Apply for Course</h1>
+    <form action="post">
+        <div>
+            <label for="username">Enter you username : </label>
+            <input type="text" id="username" name="Username" placeholder="Enter your Username">
+        </div>
+        <div>
+            <label for="male">Male</label>
+            <input type="radio" id="male" name="Gender" value="Male">
+            <label for="female">Female</label>
+            <input type="radio" id="female" name="Gender" value="Female">
+        </div>
+        <div>
+            <label for="hasExp">Do you have experience in this field</label>
+            <input type="checkbox" name="previous_exp" id="hasExp" value="yes">
+            <br>
+            <label for="yearsExp">Have more than 2 years of experience?</label>
+            <input type="checkbox" name="previous_exp" id="yearsExp" value="yes">
+        </div>
+        <div>
+            <label for="statement">Give your statement of intent below.</label>
+            <br>
+            <textarea name="SOP" id="statement" cols="40" rows="10" placeholder="In not more than 200 words."></textarea>
+        </div>
+        <div>
+            <select name="Hobby" id="hobbyOptions">
+                <option value="rowing">Rowing</option>
+                <option value="drawing">Drawing</option>
+                <option value="reading">Reading</option>
+            </select>
+        </div>
+    </form>
+</body>
+</html> 
